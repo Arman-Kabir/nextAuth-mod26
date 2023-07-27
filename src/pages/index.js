@@ -14,6 +14,9 @@ const HomePage = () => {
       <h2 style={{ textAlign: "center" }}>
         Logged In User: {session?.user?.name}
       </h2>
+      <h2 style={{ textAlign: "center" }}>
+        Logged In User email: {session?.user?.email}
+      </h2>
     </div>
   );
 };
